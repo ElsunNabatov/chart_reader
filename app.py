@@ -1,9 +1,12 @@
 import io
 from typing import Dict
 import numpy as np
-import cv2
 from PIL import Image
 import streamlit as st
+try:
+    import cv2  # remove this entirely if you don't need it
+except Exception:
+    cv2 = None
 
 # OCR (CPU)
 from paddleocr import PaddleOCR
