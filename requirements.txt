@@ -1,13 +1,8 @@
 streamlit>=1.35.0
-numpy==1.26.4                 # <— critical for cv2 import on Cloud
-opencv-python-headless==4.9.0.80
+numpy==1.26.4
 pillow>=10.2.0
-
-# OCR (CPU)
 paddleocr==2.7.0
 paddlepaddle==2.5.2
-
-# Tiny LLM (CPU)
 transformers>=4.41.0
 sentencepiece>=0.2.0
 accelerate>=0.31.0
